@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <div class="container">
+        <img src="todo-header.png" class="header-img"><br><br>
+        
+        <div class="input-section">
+            <input type="text" id="new-task-input" placeholder="Add new task...">
+            <img src="add.gif" id="add-task-btn">
+        </div>
+        <ul id="task-list"></ul>
+       <p class="quote-text">Your to-do list is your map for the day.<br> Prioritize, stay focused, and turn small tasks into big victories.</p> 
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
