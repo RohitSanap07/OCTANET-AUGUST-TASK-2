@@ -71,9 +71,6 @@ h1 {
     
 }
 
-
-
-
 .task-buttons {
     display: flex;
     gap: 10px;
@@ -97,8 +94,6 @@ h1 {
     background-color: #80ff80;
     color: black;
 }
-
-
 
 .task-buttons .delete-btn {
     background-color: #ff0000;
