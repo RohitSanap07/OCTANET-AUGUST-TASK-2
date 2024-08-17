@@ -1,0 +1,131 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ccffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.container {
+    background-color: #009999;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1.5px solid #001a1a;
+    width: 100%;
+    max-width: 550px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+#new-task-input {
+    width: 86%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#add-task-btn {
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 50px;
+    width: 50px;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.task-item {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.task-buttons button {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.task-buttons .edit-btn {
+    background-color: #00b300;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.edit-btn:hover {
+    background-color: #80ff80;
+    color: black;
+}
+
+
+
+.task-buttons .delete-btn {
+    background-color: #ff0000;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.delete-btn:hover {
+    background-color: #ff9999;
+    color: black;
+    
+}
+
+
+.header-img{
+    height: 200px;
+    width: 550px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quote-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    
+    
+}
